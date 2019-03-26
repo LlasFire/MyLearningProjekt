@@ -1,0 +1,45 @@
+nav{
+    margin: 0 auto;
+    width: 1000px;
+    height: 404px;
+    border: 1px solid darkmagenta;
+}
+
+p{
+   font-size: 18pt;
+   font-weight: bold;
+   font-style: italic;
+}
+
+.bar{
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+    background-color: aquamarine;
+    border-radius: 3px;
+    width: 330px;
+    height: 80px;
+}
+.bar-item{
+    position: absolute;
+    display: none;
+    cursor: pointer;
+    border-radius: 3px;
+    width: 1000px;
+    height: 324px;
+    background-color: darksalmon;
+    left: 0%;
+    top: 80px;
+}
+#pos1{
+    left: -101.3%;
+}
+
+#pos2{
+    left: -202.5%;
+}
+#active{
+    display: block;
+}
+

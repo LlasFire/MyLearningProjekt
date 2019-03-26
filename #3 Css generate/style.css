@@ -1,0 +1,38 @@
+.block{
+    display: inline-flex;
+    margin: 0 auto;
+    height: 45px;
+    width: 1000px;
+}
+
+.rngs{
+    width: 200px;
+    height: 25px;
+}
+
+.txt{
+    font-weight: bold;
+    font-size: 14pt;
+    margin: 0;
+    width: 170px;
+}
+
+.val{
+    height: 20px;
+    width: 45px;
+}
+
+#example{
+    width: 350px;
+    height: 200px;
+    background-color: forestgreen;
+    border-radius: 0 0 0 0;
+}
+#txtExample{
+    display: none;
+}
+
+#exampleBorder{
+    font-weight: bolder;
+    font-size: 14pt;
+}
