@@ -21,7 +21,6 @@ bar.addEventListener('mouseover', (event)=>{
 function hideAndShow(target) {
     let temp = target.getElementsByClassName('bar-item');
     hideMenu();
-    activeElement("none");
     temp[0].style.display = "block";
 }
 
@@ -44,11 +43,4 @@ function hideMenu() {
     for (let i = 0; i < barItems.length; i++){
         barItems[i].style.display = "none";
     }
-    activeElement("block");
-}
-
-// меняем видимость в блоке с ID "active", передавая значение строковым параметром
-function activeElement(hide) {
-    let barActive = document.getElementById('active');
-    barActive.style.display = hide;
 }
