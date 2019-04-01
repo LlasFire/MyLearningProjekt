@@ -1,0 +1,32 @@
+.tab{
+    display: inline-block;
+    padding: 5px 10px;
+    position: relative;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.whiteBorder{
+    border-top: 1px solid rgba(255, 221, 99, 0.57);
+    border-left: 1px solid rgba(255, 221, 99, 0.57);
+    border-right: 1px solid rgba(255, 221, 99, 0.57);
+    border-bottom: 1px solid #ffffff;
+    border-radius: 3px 3px 0 0;
+}
+.tabContent{
+    width: 300px;
+    height: 60px;
+    border: 1px solid rgba(255, 221, 99, 0.57);
+    position: relative;
+    top: -1px;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 1;
+    border-radius: 0 0 3px 3px;
+}
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
